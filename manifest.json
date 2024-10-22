@@ -1,0 +1,20 @@
+[
+    {
+        "guid": "bba04227-c153-41f2-9ea2-83ed646d2da4",
+        "name": "Merge Versions",
+        "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie and episodes\n",
+        "overview": "Automatically merge repeated movies and episodes",
+        "owner": "Blackbeard-Media",
+        "category": "General",
+        "versions": [
+            {
+                "version": "10.9.1.1",
+                "changelog": "Initial release",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "notoutyet",
+                "checksum": "notoutyet",
+                "timestamp": "2024-10-XX XX:XX:00"
+            }
+        ]
+    }
+]
