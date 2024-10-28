@@ -12,7 +12,7 @@
                 "changelog": "Initial release",
                 "targetAbi": "10.9.0.0",
                 "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/10.9.1.2/Jellyfin.Plugin.MergeVersions.zip",
-                "checksum": "c1653af8c9202f604ca07c44de7e1fbc",
+                "checksum": "0d0ba3d55fa04e1b1b0d63b15b3d05ee",
                 "timestamp": "2024-10-28 10:44:00"
             }
         ]
