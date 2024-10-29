@@ -8,6 +8,6 @@
 3. Click on it and install
 4. Restart Jellyfin
 
-## Future Plugins
+## Plugins
 
-1. <a href = "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions">Merge Versions</a>
+1. <a href = "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions">Merge Versions by BBM (Beta)</a>
