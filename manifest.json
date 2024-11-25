@@ -9,7 +9,7 @@
         "versions": [
             {
                 "version": "10.10.0.1",
-                "changelog": "- feat(config): layout enhancements\n-feat(listener): improved full library scan handling\n-feat(plugin): changed startup logic\n- fix(listener): possible memory leak fix",
+                "changelog": "- feat(config): layout enhancements\n- feat(listener): improved full library scan handling\n- feat(plugin): changed startup logic\n- fix(listener): possible memory leak fix",
                 "targetAbi": "10.10.0.0",
                 "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.10.0.1/Jellyfin.Plugin.MergeVersions.zip",
                 "checksum": "1ae10548edffdb62803a0b81b1684f5c",
