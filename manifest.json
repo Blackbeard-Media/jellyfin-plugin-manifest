@@ -2,18 +2,18 @@
     {
         "guid": "bba04227-c153-41f2-9ea2-83ed646d2da4",
         "name": "Merge Versions by BBM (Beta)",
-        "description": "Jellyfin Merge Versions plugin is a plugin that automatically groups every repeated movie and episodes\n",
+        "description": "Automatically merge repeated movies and episodes",
         "overview": "Automatically merge repeated movies and episodes",
         "owner": "Blackbeard-Media",
         "category": "General",
         "versions": [
             {
                 "version": "10.10.0.1",
-                "changelog": "- feat(config): layout enhancements\n- fix(listener): possible memory leak fix",
+                "changelog": "- feat(config): layout enhancements\n-feat(listener): improved full library scan handling\n-feat(plugin): changed startup logic\n- fix(listener): possible memory leak fix",
                 "targetAbi": "10.10.0.0",
                 "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.10.0.1/Jellyfin.Plugin.MergeVersions.zip",
-                "checksum": "ed68c46f047088ef1a7fa50492b47235",
-                "timestamp": "2024-11-25T11:55:14Z"
+                "checksum": "1ae10548edffdb62803a0b81b1684f5c",
+                "timestamp": "2024-11-25T16:59:06Z"
             },
             {
                 "version": "10.10.0.0",
