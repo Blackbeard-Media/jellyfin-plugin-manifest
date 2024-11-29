@@ -8,6 +8,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "10.10.0.2",
+                "changelog": "- feat(config): Updated 'Reset' info text",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.10.0.2/Jellyfin.Plugin.MergeVersions.zip",
+                "checksum": "cfef07907c04585cd824860be94bdff2",
+                "timestamp": "2024-11-29T10:51:13Z"
+            },
+            {
                 "version": "10.10.0.1",
                 "changelog": "- feat(config): layout enhancements\n- feat(listener): improved full library scan handling\n- feat(plugin): changed startup logic\n- fix(listener): possible memory leak fix",
                 "targetAbi": "10.10.0.0",
