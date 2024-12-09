@@ -8,6 +8,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "10.10.1.0",
+                "changelog": "- feat(plugin): Re-added split functionality\n-improv(listener): Improved sequence flow",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.10.1.0/Jellyfin.Plugin.MergeVersions.zip",
+                "checksum": "eae5bae9ccad860367345458f76a65f9",
+                "timestamp": "2024-12-09T13:13:20Z"
+            },
+            {
                 "version": "10.10.0.2",
                 "changelog": "- feat(config): Updated 'Reset' info text",
                 "targetAbi": "10.10.0.0",
