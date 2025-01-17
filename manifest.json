@@ -8,6 +8,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "10.10.2.0",
+                "changelog": "- feat(listener): changed automatic search trigger from ItemUpdated to ItemAdded and simplified the logic to improve overall performance\n- feat(manager): added more robust variable validation to prevent unnecessary merge cycles\n- feat(plugin): Reduced overall debug logging",
+                "targetAbi": "10.10.0.0",
+                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.10.2.0/Jellyfin.Plugin.MergeVersions.zip",
+                "checksum": "2c58e7cf519713320a1e41aa70a6bfef",
+                "timestamp": "2025-01-17T11:10:41Z"
+            },
+            {
                 "version": "10.10.1.1",
                 "changelog": "- feat(plugin): increased delay between single merges",
                 "targetAbi": "10.10.0.0",
