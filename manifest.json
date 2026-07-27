@@ -8,6 +8,14 @@
         "category": "General",
         "versions": [
             {
+                "version": "10.11.1.1",
+                "changelog": "- fix(manager): prevent unlinking on empty items\n- refactor(plugin): removed unused _loggerFactory field\n- refactor(manager): remove unused _session field",
+                "targetAbi": "10.11.0.0",
+                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v.10.11.1.1/Jellyfin.Plugin.MergeVersions.zip",
+                "checksum": "00473bcf0db423ebb6b06aee0c78739d",
+                "timestamp": "2026-07-27T17:49:24Z"
+            },
+            {
                 "version": "10.11.1.0",
                 "changelog": "- feat(listener): performance enhancements (scheduleMerge)\n- feat(listener): on auto-merge, call own scheduled tasks instead of manager merge-async functions\n- fix(refreshLibraryTask): async fix",
                 "targetAbi": "10.11.0.0",
