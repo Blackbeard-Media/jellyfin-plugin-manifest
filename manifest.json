@@ -12,8 +12,8 @@
                 "changelog": "- feat(plugin): Jellyfin 12 compatibility\n- change(plugin): branding\n -change(plugin): github repo url",
                 "targetAbi": "12.0.0",
                 "sourceUrl": "https://github.com/sbstnhp/jellyfin-plugin-mergeversions/releases/download/v12.0.0.0/Jellyfin.Plugin.MergeVersions.zip",
-                "checksum": "523f948097eb5394c35222465b416007",
-                "timestamp": "2026-09-17T14:12:31Z"
+                "checksum": "88bdc5438a7af16ba14f7f79414ffac1",
+                "timestamp": "2026-09-17T14:32:17Z"
             },
             {
                 "version": "10.11.1.1",
