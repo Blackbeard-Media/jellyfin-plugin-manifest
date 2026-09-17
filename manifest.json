@@ -1,17 +1,25 @@
 [
     {
         "guid": "bba04227-c153-41f2-9ea2-83ed646d2da4",
-        "name": "Merge Versions by BBM (Beta)",
+        "name": "Merge Versions (Beta)",
         "description": "Automatically merge repeated movies and episodes",
         "overview": "Automatically merge repeated movies and episodes",
-        "owner": "Blackbeard-Media",
+        "owner": "Blackbeard Media",
         "category": "General",
         "versions": [
+            {
+                "version": "12.0.0.0",
+                "changelog": "- feat(plugin): Jellyfin 12 compatibility\n- change(plugin): branding\n -change(plugin): github repo url",
+                "targetAbi": "12.0.0",
+                "sourceUrl": "https://github.com/sbstnhp/jellyfin-plugin-mergeversions/releases/download/v12.0.0.0/Jellyfin.Plugin.MergeVersions.zip",
+                "checksum": "523f948097eb5394c35222465b416007",
+                "timestamp": "2026-09-17T14:12:31Z"
+            },
             {
                 "version": "10.11.1.1",
                 "changelog": "- fix(manager): prevent unlinking on empty items\n- refactor(plugin): removed unused _loggerFactory field\n- refactor(manager): remove unused _session field",
                 "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v.10.11.1.1/Jellyfin.Plugin.MergeVersions.zip",
+                "sourceUrl": "https://github.com/sbstnhp/jellyfin-plugin-mergeversions/releases/download/v.10.11.1.1/Jellyfin.Plugin.MergeVersions.zip",
                 "checksum": "00473bcf0db423ebb6b06aee0c78739d",
                 "timestamp": "2026-07-27T17:49:24Z"
             },
@@ -19,7 +27,7 @@
                 "version": "10.11.1.0",
                 "changelog": "- feat(listener): performance enhancements (scheduleMerge)\n- feat(listener): on auto-merge, call own scheduled tasks instead of manager merge-async functions\n- fix(refreshLibraryTask): async fix",
                 "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v.10.11.1.0/Jellyfin.Plugin.MergeVersions.zip",
+                "sourceUrl": "https://github.com/sbstnhp/jellyfin-plugin-mergeversions/releases/download/v.10.11.1.0/Jellyfin.Plugin.MergeVersions.zip",
                 "checksum": "8f94ab4fe4c91626bbd29f8e7b107b2f",
                 "timestamp": "2026-07-27T15:25:32Z"
             },
@@ -27,7 +35,7 @@
                 "version": "10.11.0.0",
                 "changelog": "- feat(plugin): Jellyfin 10.11 compatibility\n- fix(manager): duplicate if condition removed",
                 "targetAbi": "10.11.0.0",
-                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.11.0.0/Jellyfin.Plugin.MergeVersions.zip",
+                "sourceUrl": "https://github.com/sbstnhp/jellyfin-plugin-mergeversions/releases/download/v10.11.0.0/Jellyfin.Plugin.MergeVersions.zip",
                 "checksum": "1e67c8200ffae28a602cb596e7e328e6",
                 "timestamp": "2025-12-13T10:58:01Z"
             },
@@ -35,7 +43,7 @@
                 "version": "10.10.2.1",
                 "changelog": "feat(listener): Replaced single merge in ItemRemoved with generic merge call to improve plugin performance",
                 "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.10.2.1/Jellyfin.Plugin.MergeVersions.zip",
+                "sourceUrl": "https://github.com/sbstnhp/jellyfin-plugin-mergeversions/releases/download/v10.10.2.1/Jellyfin.Plugin.MergeVersions.zip",
                 "checksum": "c208dcfd830f06cc1a7f452b140edfee",
                 "timestamp": "2025-01-20T13:23:59Z"
             },
@@ -43,7 +51,7 @@
                 "version": "10.10.2.0",
                 "changelog": "- feat(listener): changed automatic search trigger from ItemUpdated to ItemAdded and simplified the logic to improve overall performance\n- feat(manager): added more robust variable validation to prevent unnecessary merge cycles\n- feat(plugin): Reduced overall debug logging",
                 "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.10.2.0/Jellyfin.Plugin.MergeVersions.zip",
+                "sourceUrl": "https://github.com/sbstnhp/jellyfin-plugin-mergeversions/releases/download/v10.10.2.0/Jellyfin.Plugin.MergeVersions.zip",
                 "checksum": "2c58e7cf519713320a1e41aa70a6bfef",
                 "timestamp": "2025-01-17T11:10:41Z"
             },
@@ -51,7 +59,7 @@
                 "version": "10.10.1.1",
                 "changelog": "- feat(plugin): increased delay between single merges",
                 "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.10.1.1/Jellyfin.Plugin.MergeVersions.zip",
+                "sourceUrl": "https://github.com/sbstnhp/jellyfin-plugin-mergeversions/releases/download/v10.10.1.1/Jellyfin.Plugin.MergeVersions.zip",
                 "checksum": "3c6c34759749d15e545938497347e9f4",
                 "timestamp": "2025-01-10T15:44:13Z"
             },
@@ -59,7 +67,7 @@
                 "version": "10.10.1.0",
                 "changelog": "- feat(plugin): Re-added split functionality\n- improv(listener): Improved sequence flow",
                 "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.10.1.0/Jellyfin.Plugin.MergeVersions.zip",
+                "sourceUrl": "https://github.com/sbstnhp/jellyfin-plugin-mergeversions/releases/download/v10.10.1.0/Jellyfin.Plugin.MergeVersions.zip",
                 "checksum": "eae5bae9ccad860367345458f76a65f9",
                 "timestamp": "2024-12-09T13:13:20Z"
             },
@@ -67,7 +75,7 @@
                 "version": "10.10.0.2",
                 "changelog": "- feat(config): Updated 'Reset' info text",
                 "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.10.0.2/Jellyfin.Plugin.MergeVersions.zip",
+                "sourceUrl": "https://github.com/sbstnhp/jellyfin-plugin-mergeversions/releases/download/v10.10.0.2/Jellyfin.Plugin.MergeVersions.zip",
                 "checksum": "cfef07907c04585cd824860be94bdff2",
                 "timestamp": "2024-11-29T10:51:13Z"
             },
@@ -75,7 +83,7 @@
                 "version": "10.10.0.1",
                 "changelog": "- feat(config): layout enhancements\n- feat(listener): improved full library scan handling\n- feat(plugin): changed startup logic\n- fix(listener): possible memory leak fix",
                 "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.10.0.1/Jellyfin.Plugin.MergeVersions.zip",
+                "sourceUrl": "https://github.com/sbstnhp/jellyfin-plugin-mergeversions/releases/download/v10.10.0.1/Jellyfin.Plugin.MergeVersions.zip",
                 "checksum": "1ae10548edffdb62803a0b81b1684f5c",
                 "timestamp": "2024-11-25T16:59:06Z"
             },
@@ -83,7 +91,7 @@
                 "version": "10.10.0.0",
                 "changelog": "Initial release",
                 "targetAbi": "10.10.0.0",
-                "sourceUrl": "https://github.com/Blackbeard-Media/jellyfin-plugin-mergeversions/releases/download/v10.10.0.0/Jellyfin.Plugin.MergeVersions.zip",
+                "sourceUrl": "https://github.com/sbstnhp/jellyfin-plugin-mergeversions/releases/download/v10.10.0.0/Jellyfin.Plugin.MergeVersions.zip",
                 "checksum": "7c64a932e5f763126e96961aa0dce5c6",
                 "timestamp": "2024-11-22T10:32:07Z"
             }
